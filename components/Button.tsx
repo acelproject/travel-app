@@ -6,11 +6,13 @@ const Button = ({
   title,
   icon,
   variant,
+  full
 }: {
   type: "button" | "submit";
   title: string;
   icon?: string;
   variant: string;
+  full?: boolean;
 }) => {
   return (
     <button type={type} className={`flexCenter gap-x-3 rounded-full border ${variant}`}>
