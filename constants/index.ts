@@ -62,15 +62,15 @@ export const NAV_LINKS = [
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Climbing Community', 'Hiking Community', 'GoCamp Group'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Admin Officer', value: '+628-515-882-925-1' },
+      { label: 'Email Officer', value: 'aclprcjt@gmail.com' },
     ],
   };
   

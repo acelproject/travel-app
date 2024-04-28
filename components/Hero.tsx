@@ -11,7 +11,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className=" max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
+    <section className=" max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-24 xl:flex-row ">
       <div className="hero-map"></div>
       {/* left */}
       <div className="md:flex gap-x-1">
@@ -23,7 +23,7 @@ const Hero = () => {
             height={50}
             className="absolute left-[-5px] top-[-33px] w-10 lg:w-[50px]"
           />
-          <h1 className="bold-52 lg:bold-88">Your Traverling Camp Area</h1>
+          <h1 className="bold-40 lg:bold-88 capitalize ">explore & Enjoy your world</h1>
           <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
             We want to be each of your journeys seeking the satisfaction of
             seeing the incorruptible beauty of nature. We can help you on an
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative flex flex-1 items-start mt-14">
-          <div className="relative z-20 w-[268px] md:left-[50px] md:top-[-100px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+          <div className="relative z-20 w-[268px] md:left-[180px] md:top-[-100px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
             <div className="flex flex-col gap-y-7">
               <div>
                 <div className="flexBetween">

@@ -1,6 +1,7 @@
 import { FEATURES } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
+import phoneImg from"@/public/phon.png"
 
 const Features = () => {
   return (
@@ -8,9 +9,9 @@ const Features = () => {
       <div className="max-container padding-container relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src="/phone.png"
+            src={phoneImg}
             alt="phone"
-            width={440}
+            width={340}
             height={1000}
             className="feature-phone"
           />
